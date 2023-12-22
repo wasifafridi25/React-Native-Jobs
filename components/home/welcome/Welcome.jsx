@@ -3,7 +3,7 @@ import {
   Text,
 } from "react-native";
 
-const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
+const Welcome = () => {
 
   return (
     <View>
