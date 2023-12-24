@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 
 
-const PopularJobCard = () => {
+const PopularJobCard = ({ item }) => {
   return (
     <View>
-      <Text>Popular</Text>
+      <Text>{item}</Text>
     </View>
   );
 };
